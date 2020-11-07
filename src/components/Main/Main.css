@@ -1,0 +1,17 @@
+.main-wrapper {
+    background-color: #f4fafa;
+}
+
+.main {
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 96px 0;
+}
+
+.lesson-container {
+    margin-top: 96px;
+}
+
+.contact-container {
+    margin-top: 96px;
+}

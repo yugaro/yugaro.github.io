@@ -1,0 +1,37 @@
+.header {
+    height: 60px;
+    border-bottom: 1px solid #eee;
+}
+
+.header-logo {
+    height: 60px;
+    width: 60px;
+    background-color: #2b546a;
+    float: left;
+    text-align: center;
+}
+
+.header-logo img {
+    width: 28px;
+    padding-top: 16px;
+}
+
+.header-right{
+    float:right;
+    margin-left: 25px;
+}
+
+.header-right a {
+    line-height: 60px;
+    padding: 0 25px;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+    color:black;
+}
+
+.header-right a:hover{
+    background-color: rgba(32, 43, 206, 0.3);
+}
+
+
