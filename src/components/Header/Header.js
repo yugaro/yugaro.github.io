@@ -10,8 +10,8 @@ class Header extends React.Component {
         </div>
         <div className='header-right'>
           <a href = "https://www.yahoo.co.jp/" className = "btn btn-head2"> レッスン</a>
-          <a href = "https://www.yahoo.co.jp/" className = "btn btn-head2" > 新規登録</a>
-          <a href = "https://www.yahoo.co.jp/" className = "btn btn-head2" > ログイン</a>
+          <a href = "https://www.yahoo.co.jp/" className = "btn btn-head2"> 新規登録</a>
+          <a href = "https://www.yahoo.co.jp/" className = "btn btn-head2"> ログイン</a>
         </div>
       </div>
     );
