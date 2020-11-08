@@ -1,19 +1,29 @@
 import React from 'react';
 import './Header.css';
+import myicon from './image/myicon.png';
+import top_img from './image/top.png';
+import github_icon from './image/github-logo_icon.png';
+import logo from './image/logo.svg';
 
 class Header extends React.Component {
   render() {
     return (
-      <div className='header'>
-        <div className='header-logo'>
-          <a href = "https://www.yahoo.co.jp/" className="btn btn-head"> < img src = 'https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/react/character_logo.svg'/></a>
-        </div>
-        <div className='header-right'>
-          <a href = "https://www.yahoo.co.jp/" className = "btn btn-head2"> レッスン</a>
-          <a href = "https://www.yahoo.co.jp/" className = "btn btn-head2"> 新規登録</a>
-          <a href = "https://www.yahoo.co.jp/" className = "btn btn-head2"> ログイン</a>
-        </div>
-      </div>
+     <div className="header">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
     );
   }
 }

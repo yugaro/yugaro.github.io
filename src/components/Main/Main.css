@@ -1,17 +1,45 @@
 .main-wrapper {
-    background-color: #f4fafa;
+    background-color:  #ccc;
 }
 
 .main {
-    max-width: 1040px;
+	width: 100%;
+    //max-width: 1040px;
     margin: 0 auto;
-    padding: 96px 0;
+    padding: 96px 30px;
 }
 
 .lesson-container {
     margin-top: 96px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .contact-container {
     margin-top: 96px;
+}
+
+.lesson-containers{
+    display: flex;
+}
+
+@media all and (max-width: 1000px){
+	.lesson-container {
+    	margin-top: 96px;
+    	width: 70%;
+	}
+	.lesson-containers{
+    	display: flex;
+    	flex-wrap: wrap;
+	}
+}
+
+@media all and (max-width: 670px){
+	.lesson-container {
+    	margin-top: 96px;
+    	width: 50%;
+	}
+	.lesson-containers{
+    	flex-direction: column;
+	}
 }

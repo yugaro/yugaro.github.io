@@ -37,6 +37,7 @@ class Main extends React.Component {
           </div>
           <div className='lesson-container'>
             <h3>学べるレッスン</h3>
+            <div className='lesson-containers'>
             { lessonList.map((lessonItem) => {
               return (
                 <Lesson
@@ -46,6 +47,7 @@ class Main extends React.Component {
                 />
               );
             }) }
+            </div>
           </div>
           <div className='contact-container'>
             <h3>お問い合わせ</h3>

@@ -1,5 +1,5 @@
 .lesson-card {
-    display: inline-block;
+    flex: auto;
     width: 22.5%;
     margin-right: 24px;
     text-align: center;
@@ -7,6 +7,25 @@
     background-color: #fff;
     cursor: pointer;
 }
+
+
+@media all and (max-width: 1000px){
+.lesson-card {
+    flex: auto;
+    width: 40%;
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+}
+
+@media all and (max-width: 670px){
+.lesson-card {
+    margin: 0 auto;
+    margin-bottom: 24px; 
+}
+}
+
+
 
 .lesson-item {
     border-radius: 4px;
