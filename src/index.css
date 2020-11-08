@@ -55,6 +55,7 @@ h3 {
 .btn-head {
   opacity: 0.8;
   transition: 0.5s;
+  cursor:true;
 }
 
 .btn-head:hover {
