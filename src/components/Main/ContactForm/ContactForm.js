@@ -69,13 +69,13 @@ class ContactForm extends React.Component {
     } else {
       contactForm = (
         <form onSubmit={() => {this.handleSubmit()}} >
-          <p>メールアドレス（必須）</p>
+          <p>e-mail adress</p>
           <input
             value={this.state.email}
             onChange={(event) => {this.handleEmailChange(event)}}
           />
           {emailErrorText}
-          <p>お問い合わせ内容（必須）</p>
+          <p>contents</p>
           {/* stateのvalueの値と、onChangeイベントを追加してください */}
           <textarea
             value={this.state.content}
@@ -85,7 +85,7 @@ class ContactForm extends React.Component {
           {contentErrorText}
           <input
             type='submit'
-            value='送信'
+            value='submit'
           />
         </form>
       );

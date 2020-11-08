@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import myicon from './image/myicon.png';
 
 class Footer extends React.Component {
   render() {
@@ -7,13 +8,13 @@ class Footer extends React.Component {
       <div className='footer'>
         <div className='footer-inner'>
           <div className='footer-logo'>
-            <img src='https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/react/type_logo.png' />
-            <p>Learn to code, learn to creative.</p>
+            <img src={myicon} />
+            <p>testtesttest</p>
           </div>
           <ul className='footer-list'>
-            <li>会社概要</li>
-            <li>採用</li>
-            <li>お問い合わせ</li>
+            <li>abstract</li>
+            <li>apply</li>
+            <li>contact</li>
           </ul>
         </div>
       </div>
