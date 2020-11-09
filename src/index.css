@@ -52,12 +52,12 @@ h3 {
   margin-bottom: 40px;
 }
 
-.btn-head {
+.btn{
   opacity: 0.8;
-  transition: 0.5s;
+  transition: 0.3s;
   cursor:true;
 }
 
-.btn-head:hover {
+.btn:hover {
   opacity: 1.0;
 }

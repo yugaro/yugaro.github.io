@@ -32,70 +32,6 @@
   //background-color: #282c34;
 }
 
-.App-header-top-containter{
-  height: 65px;
-  width: 100%;
-  position :fixed;
-  top: 0;
-  z-index: 10;
-  //background-color: rgba(34, 49, 52, 0.9);
-}
-
-.App-header-top-containter-right {
-  float: right;
-  margin-right: 40px;
-  position: relative;
-}
-
-.App-logo-header{
-    width: 30px;
-}
-
-.mail_fukidashi{
-    display: none;
-    position: absolute;
-    top: 40px;
-    left: -200px;
-    font-size: 20px;
-    background-color:#808080    ;
-    color: white;
-}
-
-.mail_fukidashi2{
-    display: none;
-    position: absolute;
-    top: 40px;
-    left: -40px;
-    font-size: 15px;
-    background-color:#808080    ;
-    color: white;
-}
-
-.mail_icon_img:hover + .mail_fukidashi{
-    display: inline-block;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .mail_icon_img:hover + .mail_fukidashi{
-    animation: mail-fade-in 0.2s ease 0s 1 forwards;
-  }
-}
-
-.mail_icon_img:active + .mail_fukidashi::after{
-    //contents:"aaaaa";
-    display: none;
-}
-
-.mail_icon_img:active + .mail_fukidashi2{
-    display: inline-block;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .mail_icon_img:active + .mail_fukidashi2 {
-    animation: mail-fade-in 0.2s ease 0s 1 forwards;
-  }
-}
-
 .App-link {
   color: #61dafb;
 }
@@ -107,16 +43,6 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-@keyframes mail-fade-in {
-  0% {
-      opacity: 0;
-    }
-
-    100% {
-      opacity: 1;
-    }
 }
 
 
