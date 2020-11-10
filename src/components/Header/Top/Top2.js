@@ -1,9 +1,9 @@
 import React from 'react';
-import github_icon from './image/github-logo.png';
-import instagram_icon from './image/instagram.png'
-import twitter_icon from './image/twitter.png'
-import linkedin_icon from './image/linkedin.png'
-import mail_icon from './image/mail.png'
+import github_icon2 from './image/github-logo2.png';
+import instagram_icon2 from './image/instagram2.png'
+import twitter_icon2 from './image/twitter2.png'
+import linkedin_icon2 from './image/linkedin2.png'
+import mail_icon2 from './image/mail2.png'
 import './Top2.css';
 
 class Top2 extends React.Component {
@@ -53,7 +53,7 @@ class Top2 extends React.Component {
       <div className="App-header-top-containter2">
         <div className="App-header-top-containter-right">
           <botton className = "btn top-icon-wrap">
-            <img src={mail_icon} alt="logo"
+            <img src={mail_icon2} alt="logo"
               onMouseOver={()=> this.handleMailOver()}
               onMouseOut={()=>this.handleMailOut()}
               onClick={()=>this.handleClickMail()}
@@ -62,16 +62,16 @@ class Top2 extends React.Component {
           {mailIconText}
           {mailIconText2}
           <a href = "https://github.com/yugaro" className = "btn top-icon-wrap">
-            <img src={github_icon} alt="logo"/> 
+            <img src={github_icon2} alt="logo"/> 
           </a>
           <a href = "https://www.instagram.com/garoyugaro/" className = "btn top-icon-wrap" > 
-            <img src={instagram_icon} alt="logo"/>
+            <img src={instagram_icon2} alt="logo"/>
           </a>
           <a href = "https://twitter.com/garoyugaro/" className = "btn top-icon-wrap" > 
-            <img src={twitter_icon} alt="logo"/> 
+            <img src={twitter_icon2} alt="logo"/> 
           </a>
           <a href = "https://www.linkedin.com/in/yuga-onoue-8934531a8/" className = "btn top-icon-wrap" >
-            <img src={linkedin_icon} alt="logo"/>
+            <img src={linkedin_icon2} alt="logo"/>
           </a>
         </div>
       </div>

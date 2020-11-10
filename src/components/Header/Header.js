@@ -4,11 +4,7 @@ import Top from './Top/Top.js';
 import Top2 from './Top/Top2.js';
 import top_img from './image/top.jpg';
 import logo from './image/logo.svg';
-import github_icon from './image/github-logo.png';
-import instagram_icon from './image/instagram.png'
-import twitter_icon from './image/twitter.png'
-import linkedin_icon from './image/linkedin.png'
-import mail_icon from './image/mail.png'
+
 
 class Header extends React.Component {
   constructor(props) {
@@ -51,15 +47,24 @@ class Header extends React.Component {
       );
     }
 
-
     return (
      <div className="header">
       <header className="App-header">
         {topTex}
         {topTex2}
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello!</p>
-        <p>I'm Yuga Onoue!</p>
+        {/*<img src={logo} className="App-logo" alt="logo" />*/}
+        <div className="header-text ht1">
+          Hello!<br />I'm Yuga Onoue!
+        </div>
+        <div className="header-text ht2">
+          Osaka University stutent
+        </div>
+        <div className="header-text ht3">
+          scroll
+        </div>
+        <span className="header-guid hg1"></span>
+        <span className="header-guid hg2"></span>
+        <span className="header-guid hg3"></span>
       </header>
     </div>
     );
