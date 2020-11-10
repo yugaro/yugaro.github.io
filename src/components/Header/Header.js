@@ -54,7 +54,7 @@ class Header extends React.Component {
         {topTex2}
         {/*<img src={logo} className="App-logo" alt="logo" />*/}
         <div className="header-text ht1">
-          Hello!<br />I'm Yuga Onoue!
+          Hello!<br />I'm Yuga!
         </div>
         <div className="header-text ht2">
           Osaka University stutent
