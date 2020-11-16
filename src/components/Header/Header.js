@@ -24,7 +24,7 @@ class Header extends React.Component {
     this.setState({currentPosition: this.scrollTop()});
   }
 
- scrollTop() {
+  scrollTop() {
     return Math.max(
       window.pageYOffset,
       document.documentElement.scrollTop,
@@ -32,16 +32,35 @@ class Header extends React.Component {
     );
   }
 
+  getWindowSize() {
+    var w = window,
+    d = document,
+    e = d.documentElement,
+    g = d.getElementsByTagName('body')[0],
+    w = w.innerWidth || e.clientWidth || g.clientWidth,
+    h = w.innerHeight|| e.clientHeight|| g.clientHeight;
+    return {
+      width: w,
+      height: h
+    }
+  }
+
+  componentWillMount () {
+    window.addEventListener('resize', () => {
+      var size = this.getWindowSize()
+    })
+  }
+
   render() {
     let topTex;
-    if(this.state.currentPosition>800){
+    if(this.state.currentPosition>this.getWindowSize().height * 0.8){
       topTex=(
         <Top />
       );
     }
 
     let topTex2;
-    if(this.state.currentPosition<=800){
+    if(this.state.currentPosition<=this.getWindowSize().height * 0.8){
       topTex2=(
         <Top2 />
       );
