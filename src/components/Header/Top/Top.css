@@ -3,7 +3,7 @@
   width: 100%;
   position :fixed;
   top: 0;
-  z-index: 10;
+  z-index: 1100;
   background-color: rgb(240,240,240);
   box-shadow: 0 0 20px gray;
 }
@@ -18,14 +18,14 @@
 }
 
 .top-icon-wrap{
-	flex: auto;
-	margin-right:15px;
+  flex: auto;
+  margin-right:15px;
 }
 
 
 .top-icon-wrap img{
-	height: 30px;
-	display: block;
+  height: 30px;
+  display: block;
 }
 
 
@@ -40,6 +40,8 @@
     color: white;
     border-radius: 8px;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
     line-height:150%;
     animation: 0.3s fadeIn;
 }
@@ -55,6 +57,8 @@
     color: white;
     border-radius: 8px;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
     line-height:150%;
     animation: 0.3s fadeIn;
 }

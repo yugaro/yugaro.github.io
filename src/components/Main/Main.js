@@ -1,9 +1,10 @@
 import React from 'react';
+import AboutMe from './AboutMe/AboutMe.js';
+import SpecialtySkill from './Specialty-Skill/Specialty-Skill.js'
 import Lesson from './Lesson/Lesson.js';
 import ContactForm from './ContactForm/ContactForm.js';
-import myicon from './image/myicon.png';
-
 import './Main.css';
+import myicon from './image/myicon.png';
 
 class Main extends React.Component {
   render() {
@@ -31,12 +32,10 @@ class Main extends React.Component {
     ];
 
     return (
-      <div className='main-wrapper'>
-        <div className='main'>
-          <div className='copy-container'>
-            <h1>Hi!!</h1>
-            <h2>I'm Yuga </h2>
-          </div>
+      <div className='main'>
+        <div className='main-wrapper'>
+         <AboutMe />
+         <SpecialtySkill />
           <div className='lesson-container'>
             <h3>bio</h3>
             <div className='lesson-containers'>

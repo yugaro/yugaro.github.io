@@ -60,4 +60,5 @@ h3 {
 
 .btn:hover {
   opacity: 1.0;
+  cursor:true;
 }

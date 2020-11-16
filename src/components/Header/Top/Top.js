@@ -1,10 +1,11 @@
 import React from 'react';
+import './Top.css';
 import github_icon from './image/github-logo.png';
 import instagram_icon from './image/instagram.png'
 import twitter_icon from './image/twitter.png'
 import linkedin_icon from './image/linkedin.png'
 import mail_icon from './image/mail.png'
-import './Top.css';
+
 
 class Top extends React.Component {
   constructor(props) {
@@ -27,7 +28,7 @@ class Top extends React.Component {
     this.setState({isMouseClick_mail :true});
     this.setState({isMouseOver_mail: false});
     var textField = document.createElement('textarea')
-    textField.innerText = 'yugaro.yugaro@gmail.com'
+    textField.innerText = 'onoue@hopf.sys.es.osaka-u.ac.jp'
     document.body.appendChild(textField)
     textField.select()
     document.execCommand('copy');

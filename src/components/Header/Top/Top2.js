@@ -1,6 +1,6 @@
 import React from 'react';
 import github_icon2 from './image/github-logo2.png';
-import instagram_icon2 from './image/instagram2.png'
+import instagram_icon2 from './image/instagram4.png'
 import twitter_icon2 from './image/twitter2.png'
 import linkedin_icon2 from './image/linkedin2.png'
 import mail_icon2 from './image/mail2.png'

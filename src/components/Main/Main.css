@@ -1,13 +1,32 @@
-.main-wrapper {
-    background-color: rgb(250,250,250);
+.main {
+    background-color: rgb(255,255,255);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-font-smoothing: antialiased;
 }
 
-.main {
-	width: 100%;
-    //max-width: 1040px;
-    margin: 0 auto;
-    padding: 96px 30px;
+.main-wrapper {
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    padding: 24px;
+    max-width: 1000px;
 }
+
+.main-title{
+    display: block;
+    font-size: 2.5rem;
+    color: #333333;
+    text-align: left;
+    font-weight: 700;
+    margin-top: 64px;
+    margin-bottom: 24px;
+    font-family: Montserrat;
+    line-height: 1.8;
+}
+
 
 .lesson-container {
     margin-top: 96px;

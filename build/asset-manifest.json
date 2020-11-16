@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.377fa9b6.chunk.css",
-    "main.js": "/static/js/main.194e4d0a.chunk.js",
-    "main.js.map": "/static/js/main.194e4d0a.chunk.js.map",
+    "main.css": "/static/css/main.ff884c16.chunk.css",
+    "main.js": "/static/js/main.86e65e13.chunk.js",
+    "main.js.map": "/static/js/main.86e65e13.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4a3acf61.js",
     "runtime-main.js.map": "/static/js/runtime-main.4a3acf61.js.map",
-    "static/js/2.ecc3be14.chunk.js": "/static/js/2.ecc3be14.chunk.js",
-    "static/js/2.ecc3be14.chunk.js.map": "/static/js/2.ecc3be14.chunk.js.map",
+    "static/js/2.49d3a3cc.chunk.js": "/static/js/2.49d3a3cc.chunk.js",
+    "static/js/2.49d3a3cc.chunk.js.map": "/static/js/2.49d3a3cc.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f8f9fc438995612afd0284e495a481f7.js": "/precache-manifest.f8f9fc438995612afd0284e495a481f7.js",
+    "precache-manifest.25963c03794127327fdc32738990b0d0.js": "/precache-manifest.25963c03794127327fdc32738990b0d0.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.377fa9b6.chunk.css.map": "/static/css/main.377fa9b6.chunk.css.map",
-    "static/js/2.ecc3be14.chunk.js.LICENSE.txt": "/static/js/2.ecc3be14.chunk.js.LICENSE.txt",
-    "static/media/instagram.png": "/static/media/instagram.351e57f5.png",
-    "static/media/instagram2.png": "/static/media/instagram2.efbac426.png",
+    "static/css/main.ff884c16.chunk.css.map": "/static/css/main.ff884c16.chunk.css.map",
+    "static/js/2.49d3a3cc.chunk.js.LICENSE.txt": "/static/js/2.49d3a3cc.chunk.js.LICENSE.txt",
+    "static/media/instagram.png": "/static/media/instagram.4a8c2347.png",
     "static/media/linkedin2.png": "/static/media/linkedin2.e0a3ddee.png",
     "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg",
+    "static/media/mail.png": "/static/media/mail.683ceebc.png",
     "static/media/myicon.png": "/static/media/myicon.619adca3.png",
     "static/media/top.jpg": "/static/media/top.af6c63c5.jpg",
-    "static/media/twitter.png": "/static/media/twitter.467d376f.png",
-    "static/media/twitter2.png": "/static/media/twitter2.d7c6644a.png"
+    "static/media/twitter2.png": "/static/media/twitter2.d7c6644a.png",
+    "static/media/yuga01.png": "/static/media/yuga01.d04202d8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.4a3acf61.js",
-    "static/js/2.ecc3be14.chunk.js",
-    "static/css/main.377fa9b6.chunk.css",
-    "static/js/main.194e4d0a.chunk.js"
+    "static/js/2.49d3a3cc.chunk.js",
+    "static/css/main.ff884c16.chunk.css",
+    "static/js/main.86e65e13.chunk.js"
   ]
 }
