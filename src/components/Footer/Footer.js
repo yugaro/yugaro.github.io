@@ -53,7 +53,7 @@ class Footer extends React.Component {
     return (
       <div className='footer'>
         <div className='footer-wrapper'>
-          <div className='footer-title'>
+          <div className='tctfl footer-title'>
            Contact
           </div>
           <div className='footer-container'>

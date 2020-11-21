@@ -1,6 +1,7 @@
 import React from 'react';
 import AboutMe from './AboutMe/AboutMe.js';
-import SpecialtySkill from './Specialty-Skill/Specialty-Skill.js'
+import SpecialtySkill from './SpecialtySkill/SpecialtySkill.js';
+import Education from './Education/Education.js';
 import Lesson from './Lesson/Lesson.js';
 import ContactForm from './ContactForm/ContactForm.js';
 import './Main.css';
@@ -36,6 +37,17 @@ class Main extends React.Component {
         <div className='main-wrapper'>
          <AboutMe />
          <SpecialtySkill />
+         <Education />
+        </div>
+      </div>
+    );
+  }
+}
+
+export default Main;
+
+
+{/*
           <div className='lesson-container'>
             <h3>bio</h3>
             <div className='lesson-containers'>
@@ -54,10 +66,4 @@ class Main extends React.Component {
             <h3>Contact</h3>
             <ContactForm />
           </div>
-        </div>
-      </div>
-    );
-  }
-}
-
-export default Main;
+        */}

@@ -16,7 +16,7 @@
 .App-header {
   background-image: url(./image/top.jpg);
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -29,9 +29,7 @@
 
 
 .header-text {
-  display: block;
   color: white;
-  font-family: 'Montserrat', sans-serif;
   text-align: center;
   line-height: 1.8;
   font-size: 3.5rem;
@@ -60,7 +58,6 @@
   border-bottom: 3px solid rgb(255, 255, 255);
   width: 18px;
   height: 18px;
-  box-sizing: border-box;
   animation: evwVtB 1.5s ease 0s infinite normal none running;
 }
 

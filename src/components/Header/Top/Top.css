@@ -36,7 +36,7 @@
     left: -160px;
     font-size: 18px;
     width: 340px;
-    background-color:#808080    ;
+    background: rgba(128,128,128,0.8);
     color: white;
     border-radius: 8px;
     text-align: center;
@@ -53,7 +53,7 @@
     left: -40px;
     font-size: 18px;
     width: 120px;
-    background-color:#808080    ;
+    background: rgba(128,128,128,0.8);
     color: white;
     border-radius: 8px;
     text-align: center;

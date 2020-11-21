@@ -12,18 +12,19 @@ class AboutMe extends React.Component {
   		<div className='about-me-container'>
 	        <img src={yuga01} class='about-me-icon'/>
 	        <div className='about-me-main'>
-	          <div className='main-title'>
+	          <div className='tctfl main-title'>
 	          About Me
 	          </div>
-	          <div className='about-me-contents'>
-	          "texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext
-	          texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext
-	          texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext
-	          texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext
-	          texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext"
+	          <div className='tctfl about-me-contents'>
+	           text text text text text text text text text text text text text text text text text text text text text text text
+	           text text text text text text text text text text text text text text text text text text text text text text text
+	           text text text text text text text text text text text text text text text text text text text text text text text
+	           text text text text text text text text text text text text text text text text text text text text text text text
+	           text text text text text text text text text text text text text text text text text text text text text text text
+	           text text text text text text text text text text text text text text text text text text text text text text text
 	          </div>
 	        </div>
-	     </div>
+	    </div>
   	);
   }
 }
