@@ -2,42 +2,29 @@ import React from 'react';
 import AboutMe from './AboutMe/AboutMe.js';
 import SpecialtySkill from './SpecialtySkill/SpecialtySkill.js';
 import Education from './Education/Education.js';
-import Lesson from './Lesson/Lesson.js';
-import ContactForm from './ContactForm/ContactForm.js';
+import WorkExperience from './WorkExperience/WorkExperience.js';
+import Article from './Article/Article.js';
+import Journal from './Journal/Journal.js';
+import Prize from './Prize/Prize.js';
+import Qualification from './Qualification/Qualification.js';
 import './Main.css';
 import myicon from './image/myicon.png';
+//import Lesson from './Lesson/Lesson.js';
+//import ContactForm from './ContactForm/ContactForm.js';
 
 class Main extends React.Component {
   render() {
-    const lessonList = [
-      {
-        name: 'u-l',
-        image: myicon,
-        introduction: 'testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest',
-      },
-      {
-        name: 'u-r',
-        image: myicon,
-        introduction: 'testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest',
-      },
-      {
-        name: 'b-l',
-        image: myicon,
-        introduction: 'testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest',
-      },
-      {
-        name: 'b-r',
-        image: myicon,
-        introduction: 'testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest',
-      },
-    ];
-
     return (
       <div className='main'>
         <div className='main-wrapper'>
          <AboutMe />
          <SpecialtySkill />
          <Education />
+         <WorkExperience />
+         <Article />
+         <Journal />
+         <Prize />
+         <Qualification />
         </div>
       </div>
     );
@@ -45,25 +32,3 @@ class Main extends React.Component {
 }
 
 export default Main;
-
-
-{/*
-          <div className='lesson-container'>
-            <h3>bio</h3>
-            <div className='lesson-containers'>
-            { lessonList.map((lessonItem) => {
-              return (
-                <Lesson
-                  name={ lessonItem.name }
-                  image={ lessonItem.image }
-                  introduction={ lessonItem.introduction }
-                />
-              );
-            }) }
-            </div>
-          </div>
-          <div className='contact-container'>
-            <h3>Contact</h3>
-            <ContactForm />
-          </div>
-        */}

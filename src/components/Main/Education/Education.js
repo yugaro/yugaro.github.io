@@ -46,10 +46,13 @@ class Education extends React.Component {
   					</ul>
             <div className="timeline-special-container">
               <div className="timeline-special">
-                Networked Control
+                Networked Control System
               </div>
               <div className="timeline-special">
                 Machine Learning
+              </div>
+              <div className="timeline-special">
+                Computer Science
               </div>
               <div className="timeline-special">
                 Network Science
@@ -61,7 +64,7 @@ class Education extends React.Component {
                 Hybrid System
               </div>
               <div className="timeline-special">
-                Computer Science
+                Epidemiology
               </div>
               <div className="timeline-special">
                 Statistics

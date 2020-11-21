@@ -9,7 +9,7 @@ class SpecialtySkill extends React.Component {
   render(){
   	const s_s_list=[
   		{
-  			"name":"Networked Control",
+  			"name":"Networked Control System",
   			"level":"88%",
   			"label":1,
 
@@ -19,60 +19,65 @@ class SpecialtySkill extends React.Component {
   			"level":"86%",
   			"label":0,
   		},
+      {
+        "name":"Computer Science",
+        "level":"86%",
+        "label":1,
+      },
   		{
   			"name":"Network Science",
   			"level":"82%",
-  			"label":1,
+  			"label":0,
   		},
   		{
   			"name":"Embedded System",
   			"level":"80%",
-  			"label":0,
+  			"label":1,
   		},
   		{
   			"name":"Hybrid System",
   			"level":"76%",
-  			"label":1,
+  			"label":0,
   		},
   		{
   			"name":"Stochastic System",
   			"level":"72%",
-  			"label":0,
+  			"label":1,
   		},
   		{
   			"name":"Epidemiology",
   			"level":"75%",
-  			"label":1,
+  			"label":0,
   		},
   		{
   			"name":"Python, Flask",
   			"level":"88%",
-  			"label":0,
+  			"label":1,
   		},
   		{
   			"name":"C, C++",
   			"level":"82%",
-  			"label":1,
+  			"label":0,
   		},
   		{
   			"name":"React, Node.js", 
   			"level":"80%",
-  			"label":0,
+  			"label":1,
   		},
   		{
   			"name":"AWS",
   			"level":"68%",
-  			"label":1,
+  			"label":0,
   		},
   		{
   			"name":"Docker",
   			"level":"76%",
-  			"label":0,
+  			"label":1,
   		},
   		{
   			"name":"Communication",
   			"level":"90%",
-  			"label":1,
+  			"label":0,
   		},
   	];
 
