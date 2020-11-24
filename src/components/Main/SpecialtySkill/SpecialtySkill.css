@@ -28,7 +28,7 @@
     height: 5px;
     flex-basis: 100%;
     width: 100%;
-    box-shadow: rgb(204, 204, 204) 5px 5px 10px;
+    box-shadow: rgb(204, 204, 204) 1px 1px 5px;
 }
 
 .s-s-level{

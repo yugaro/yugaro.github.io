@@ -11,7 +11,7 @@ class WorkExperience extends React.Component {
   	const jobList=[
   		{
   			name: 'MSK Anshin Station, Mistui Sumitomo Insurance Company, Inc',
-  			year: 'Dec, 2017 - Sep, 2020',
+  			year: 'Dec. 2017 - Sep. 2020',
   			place: 'Osaka, Japan',
   			status: 'Customer Operator',
   			contents:[
@@ -29,7 +29,7 @@ class WorkExperience extends React.Component {
   		},
   		{
   			name: 'Daintree Manor',
-  			year: 'Feb, 2019 - Mar, 2019',
+  			year: 'Feb. 2019 - Mar. 2019',
   			place: 'Forest Creek, Australia',
   			status: 'Concierge',
   			contents:[
@@ -47,7 +47,7 @@ class WorkExperience extends React.Component {
   		},
   		{
   			name: 'Star Form, Inc',
-  			year: 'May, 2019 - Sep, 2019',
+  			year: 'May. 2019 - Sep. 2019',
   			place: 'Osaka, Japan',
   			status: 'Web App Engineer',
   			contents:[
@@ -65,7 +65,7 @@ class WorkExperience extends React.Component {
   		},
   		{
   			name: 'Fenrir co., LTD',
-  			year: 'Feb, 2020 - May, 2020',
+  			year: 'Feb. 2020 - May. 2020',
   			place: 'Osaka, Japan',
   			status: 'Web App Engineer',
   			contents:[
@@ -83,7 +83,7 @@ class WorkExperience extends React.Component {
   		},
   		{
   			name: 'Liberty Fish co., LTD',
-  			year: 'Oct, 2020 -',
+  			year: 'Oct. 2020 -',
   			place: 'Osaka, Japan',
   			status: 'System Engineer',
   			contents:[

@@ -22,9 +22,9 @@ class Main extends React.Component {
          <Education />
          <WorkExperience />
          <Article />
+         <Qualification />
          <Journal />
          <Prize />
-         <Qualification />
         </div>
       </div>
     );

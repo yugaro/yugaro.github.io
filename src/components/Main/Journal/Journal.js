@@ -12,6 +12,14 @@ class Journal extends React.Component {
   			<div className="tctfl main-title">
   				Journal
   			</div>
+        <ul className="timeline-content-container">
+          <li>
+            <div className="tctfl qualification-content">
+            Yuga Onoue, (2021). Event-Triggered Control on Deterministic SIS Model. Annual Reviews in Control.
+            (to appear).
+            </div>
+          </li>
+        </ul>
   		</div>
   	);
   }

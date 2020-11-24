@@ -20,7 +20,7 @@ class Education extends React.Component {
   				<div className="main-timeline-wrap">
   					<div className="main-timeline-year-container">
   						<div className="main-timeline-year">
-  							2017 - 2021 (expected)
+  							Apr. 2017 - Mar. 2021 (expected)
   						</div>
   						<div className="tctfl main-timeline-place">
   							Osaka, Japan
@@ -30,17 +30,17 @@ class Education extends React.Component {
   						Osaka University
   					</div>
   					<div className="tctfl tts">
-  						Bachelor of Engineering Science ( Department of Intelligent Systems )
+  						Bachelor of Engineering Science ( Major in Intelligent System )
   					</div>
   					<ul className="timeline-content-container">
     					<li>
     						<div className="tctfl timeline-content">
-    							text text text text text text text text text text text text text text text text text text text text text text text 
+                 I authored a paper on computer-controlled engineering, applying event-triggered control over the Deterministic SIS Network Model, which is one of the mathematical epidemic model.
     						</div>
     					</li>
     					<li>
     						<div className="tctfl timeline-content">
-                  text text text text text text text text text text text text text text text text text text text text text text text 
+                 My research area focuses on the basic theory and its application for the analysis and design of increasingly large and complex systems, such as networked control systems that exchange information via communication networks, as well as software development for computer control.
     						</div>
     					</li>
   					</ul>
