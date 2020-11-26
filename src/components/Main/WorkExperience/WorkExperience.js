@@ -13,90 +13,59 @@ class WorkExperience extends React.Component {
   			name: 'MSK Anshin Station, Mistui Sumitomo Insurance Company, Inc',
   			year: 'Dec. 2017 - Sep. 2020',
   			place: 'Osaka, Japan',
-  			status: 'Customer Operator',
+  			status: 'Customer Service Operator',
   			contents:[
-  				{text: 'text text text text text text text text text text text text'},
-  				{text: 'text text text text text text text text text text text'},
-  				{text: 'text text text text text text text text text text text text'},
-  				{text: 'text text text text text text text text text text text text'},
+  				{text: 'Took accident reports from the insurance policyholders over the phone and provided initial responses, e.g., contacting the other party, arranging towing services and rented cars, and request for withholding the treatment costs.'},
+  				{text: 'Understood requests from the confused customers accurately and advised them in precise terms, considering their feelings.'},
+          {text: 'Among the departments of accident report center, I had the best record of the number of accidents handled per day.'},
   			],
   			specials:[
-  				{spec: 'text text'},
-  				{spec: 'text text'},
-  				{spec: 'text text'},
-  				{spec: 'text text'},
+  				{spec: 'Communication'},
+  				{spec: 'Flexibility'},
   			],	
   		},
   		{
   			name: 'Daintree Manor',
   			year: 'Feb. 2019 - Mar. 2019',
   			place: 'Forest Creek, Australia',
-  			status: 'Concierge',
+  			status: 'Bell Person, Workawayer',
   			contents:[
-  				{text: 'text text text text text text text text text text text text'},
-  				{text: 'text text text text text text text text text text text'},
-  				{text: 'text text text text text text text text text text text text'},
-  				{text: 'text text text text text text text text text text text text'},
+  				{text: 'Worked for about two months as a bellperson taking advantage of "workaway", which is an international program that allows travelers to pay for their room and food by helping their host with household work needs, projects, or odd jobs.'},
+          {text: 'Mainly, guided guests to their rooms, showing them the facilities, and also worked as a cook when there was a shortage of the staff.'},
   			],
   			specials:[
-  				{spec: 'text text'},
-  				{spec: 'text text'},
-  				{spec: 'text text'},
-  				{spec: 'text text'},
+  				{spec: 'Communication'},
+  				{spec: 'English'},
   			],		
   		},
   		{
   			name: 'Star Form, Inc',
   			year: 'May. 2019 - Sep. 2019',
   			place: 'Osaka, Japan',
-  			status: 'Web App Engineer',
+  			status: 'Web App Engineer, Intern',
   			contents:[
-  				{text: 'text text text text text text text text text text text text'},
-  				{text: 'text text text text text text text text text text text'},
-  				{text: 'text text text text text text text text text text text text'},
-  				{text: 'text text text text text text text text text text text text'},
+  				{text: 'Designed and developed Web application SPOGIFT, which is a service that allows customers easily to create their own sports team original memorabilia.'},
+  				{text: 'Devised a plan for what products to handle and how to market them, including designing of the entire UI flow by myself.'},
   			],
   			specials:[
-  				{spec: 'text text'},
-  				{spec: 'text text'},
-  				{spec: 'text text'},
-  				{spec: 'text text'},
-  			],	
-  		},
-  		{
-  			name: 'Fenrir co., LTD',
-  			year: 'Feb. 2020 - May. 2020',
-  			place: 'Osaka, Japan',
-  			status: 'Web App Engineer',
-  			contents:[
-  				{text: 'text text text text text text text text text text text text'},
-  				{text: 'text text text text text text text text text text text'},
-  				{text: 'text text text text text text text text text text text text'},
-  				{text: 'text text text text text text text text text text text text'},
-  			],
-  			specials:[
-  				{spec: 'text text'},
-  				{spec: 'text text'},
-  				{spec: 'text text'},
-  				{spec: 'text text'},
+  				{spec: 'HTML & CSS'},
+  				{spec: 'jQuery'},
+          {spec: 'React'},
+          {spec: 'Node.js'},
   			],	
   		},
   		{
   			name: 'Liberty Fish co., LTD',
-  			year: 'Oct. 2020 -',
+  			year: 'Jan. 2020 - Apr. 2020',
   			place: 'Osaka, Japan',
-  			status: 'System Engineer',
+  			status: 'System Engineer, Intern',
   			contents:[
-  				{text: 'text text text text text text text text text text text text'},
-  				{text: 'text text text text text text text text text text text'},
-  				{text: 'text text text text text text text text text text text text'},
-  				{text: 'text text text text text text text text text text text text'},
+  				{text: 'Developed a base application for linking other products in the instrumentation systems, which are measuring instruments used for indicating, measuring, and recording physical quantities.'},
+  				{text: 'Evaluated the performance of air conditioners intending to improve their qualities, such as creating test cases based on the specifications, confirming that the specifications are satisfied, and finding defects.'},
   			],
   			specials:[
-  				{spec: 'text text'},
-  				{spec: 'text text'},
-  				{spec: 'text text'},
-  				{spec: 'text text'},
+  				{spec: 'C++'},
+  				{spec: 'Python'},
   			],	
   		},
   	];
@@ -123,73 +92,3 @@ class WorkExperience extends React.Component {
 }
 
 export default WorkExperience;
-
-
-
-{/*
-<div className="main-timeline-container">
-	  				<div className="main-timeline-line-container">
-	  					<div className="main-timeline-round"></div>
-	  					<div className="main-timeline-line"></div>
-	  				</div>
-	  				<div className="main-timeline-wrap">
-	  					<div className="main-timeline-year-container">
-	  						<div className="main-timeline-year">
-	  							2017 - 2021 (expected)
-	  						</div>
-	  						<div className="tctfl main-timeline-place">
-	  							Osaka, Japan
-	  						</div>
-	  					</div>
-	  					<div className="tctfl ttf">
-	  						Osaka University
-	  					</div>
-	  					<div className="tctfl tts">
-	  						Bachelor of Engineering Science ( Department of Intelligent Systems )
-	  					</div>
-	  					<ul className="timeline-content-container">
-	    					<li><div className="tctfl timeline-content">
-	    							text text text text text text text text text text text text text text text text text text text text text text text 
-	    					</div></li>
-	    					<li><div className="tctfl timeline-content">
-	                 				 text text text text text text text text text text text text text text text text text text text text text text text 
-	    					</div></li>
-	  					</ul>
-	            	<div className="timeline-special-container">
-		              <div className="timeline-special">
-		                Networked Control System
-		              </div>
-		              <div className="timeline-special">
-		                Machine Learning
-		              </div>
-		              <div className="timeline-special">
-		                Computer Science
-		              </div>
-		              <div className="timeline-special">
-		                Network Science
-		              </div>
-		              <div className="timeline-special">
-		                Embedded System
-		              </div>
-		              <div className="timeline-special">
-		                Hybrid System
-		              </div>
-		              <div className="timeline-special">
-		                Epidemiology
-		              </div>
-		              <div className="timeline-special">
-		                Statistics
-		              </div>
-		              <div className="timeline-special">
-		                C, C++
-		              </div>
-		              <div className="timeline-special">
-		                Python
-		              </div>
-	            	</div>
-	  			</div>
-	  		</div>
-
-
-
-*/}

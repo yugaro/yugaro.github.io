@@ -50,7 +50,7 @@ class SpecialtySkill extends React.Component {
   			"label":0,
   		},
   		{
-  			"name":"Python, Flask",
+  			"name":"Python",
   			"level":"88%",
   			"label":1,
   		},
