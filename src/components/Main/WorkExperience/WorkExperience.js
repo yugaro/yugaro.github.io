@@ -68,6 +68,18 @@ class WorkExperience extends React.Component {
   				{spec: 'Python'},
   			],	
   		},
+      {
+        name: 'HACARUS, Inc ',
+        year: 'Jan. 2021 (TBA) - ',
+        place: 'Kyoto, Japan',
+        status: 'Data Scientist, Intern',
+        contents:[
+          {text: 'TBS'},
+        ],
+        specials:[
+          {spec: 'Python'},
+        ],  
+      },
   	];
     return (
     	<div className="workexperience-container">
