@@ -15,7 +15,7 @@ class Journal extends React.Component {
         <ul className="timeline-content-container">
           <li>
             <div className="tctfl qualification-content">
-            Yuga Onoue, (2021). Event-Triggered Control on Deterministic SIS Model. Annual Reviews in Control.
+            Yuga Onoue, (2021). Event-Triggered Control for Mitigating SIS Spreading Processes. Annual Reviews in Control.
             (to appear).
             </div>
           </li>
