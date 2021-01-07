@@ -30,7 +30,7 @@ class Article extends React.Component {
   				</a>
   				<a href="https://qiita.com/yugaro/items/998750fa78b5efc79a9c" className="article-link">
   					<div className="btn article-image arti4"></div>
-            <div className="tctfl artt1">Joint Design Approach of Controllers by BMI</div>
+            <div className="tctfl artt1">Control of Uncertain Models by BMI Approach</div>
             <div className="tctfl artt2">For Bilinear System Leaners</div>
   				</a>
   			</div>

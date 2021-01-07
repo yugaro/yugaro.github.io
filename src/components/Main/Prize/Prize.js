@@ -15,8 +15,7 @@ class Prize extends React.Component {
         <ul className="timeline-content-container">
           <li>
             <div className="tctfl qualification-content">
-            Yuga Onoue, (2021). Control of Epidemic Processes by Combinations of Network Science and Feedback Control Theory ~Event-Triggered Control Approach~. Sience Incare 2021. Ministry of Education, Culture, Sports, Science and Technology.
-            (to appear)
+            Yuga Onoue, (2021). Control of Epidemic Processes by Combinations of Network Science and Feedback Control Theory ~Event-Triggered Control Approach~. Sience Incare 2021. Ministry of Education, Culture, Sports, Science and Technology, Finalist.
             </div>
           </li>
         </ul>
