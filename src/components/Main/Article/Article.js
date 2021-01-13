@@ -33,6 +33,11 @@ class Article extends React.Component {
             <div className="tctfl artt1">Control of Uncertain Models by BMI Approach</div>
             <div className="tctfl artt2">For Bilinear System Leaners</div>
   				</a>
+          <a href="https://qiita.com/yugaro/items/b1d31587857b193141bb" className="article-link">
+            <div className="btn article-image arti5"></div>
+            <div className="tctfl artt1">Gaussian Processes for Learning Self-triggered Controller </div>
+            <div className="tctfl artt2">For Network Control System and Machine Learning Leaners </div>
+          </a>
   			</div>
   		</div>
   	);
