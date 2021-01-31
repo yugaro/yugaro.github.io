@@ -10,7 +10,7 @@ class WorkExperience extends React.Component {
   render() {
   	const jobList=[
   		{
-  			name: 'MSK Anshin Station, Mistui Sumitomo Insurance Company, Inc',
+  			name: 'MSK Anshin Station, Mitsui Sumitomo Insurance Company, Inc',
   			year: 'Dec. 2017 - Sep. 2020',
   			place: 'Osaka, Japan',
   			status: 'Customer Service Operator',
