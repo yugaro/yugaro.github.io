@@ -74,10 +74,13 @@ class WorkExperience extends React.Component {
         place: 'Kyoto, Japan',
         status: 'Data Scientist, Intern',
         contents:[
-          {text: 'TBS'},
+          {text: 'Sparse modeling technology that can extract features with a small amount of training data or without any training data is developed.'},
+          {text: 'Most common deep learning processes, in which the decision-making mechanism of artificial intelligence is a black box, ours is visualized in a form that can be interpreted by humans.'},
         ],
         specials:[
           {spec: 'Python'},
+          {spec: 'AWS'},
+          {spec: 'Docker'},
         ],  
       },
   	];
