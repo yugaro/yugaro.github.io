@@ -1,43 +1,55 @@
 .App-header-top-containter{
-  height: 60px;
-  width: 100%;
   position :fixed;
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  width: 100%;
   top: 0;
-  z-index: 1100;
+  z-index: 1000;
   background-color: rgb(240,240,240);
   box-shadow: 0 0 20px gray;
 }
 
-.App-header-top-containter-right {
-  float: right;
+.top-containter-wrapper {
   position: relative;
   display: flex;
-  height: 100%;
-  margin-right: 20px;
-  padding:15px 0px; 
+  align-items: center;
+  min-height: 56px;
+  padding: 0 16px;
+}
+
+
+.App-header-top-containter-right {
+  display: flex;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  flex: 1 1 0%;
 }
 
 .top-icon-wrap{
-  flex: auto;
   margin-right:15px;
 }
 
 .top-icon-wrap img{
-  height: 30px;
   display: block;
+  width: 2em;
+  vertical-align: -0.125em;
+}
+
+.mail_icon_wrapper{
+  position: relative;
 }
 
 
 .mail_fukidashi{
-    display: inline-block;
     position: absolute;
-    top: 35px;
-    left: -160px;
+    top: 20px;
+    left: -120px;
     font-size: 18px;
     width: 340px;
-    background: rgba(128,128,128,0.8);
+    background: rgba(0,0,0,0.5);
     color: white;
-    border-radius: 8px;
+    border-radius: 6px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
@@ -46,13 +58,12 @@
 }
 
 .mail_fukidashi2{
-    display: inline-block;
     position: absolute;
-    top: 35px;
-    left: -40px;
+    top: 20px;
+    left: -50px;
     font-size: 18px;
     width: 120px;
-    background: rgba(128,128,128,0.8);
+    background: rgba(0,0,0,0.5);
     color: white;
     border-radius: 8px;
     text-align: center;

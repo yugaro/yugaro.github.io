@@ -7,6 +7,18 @@ class Education extends React.Component {
   }
 
   render(){
+    const skill_list=[
+      {name: 'Networked Control System'},
+      {name: 'Machine Learning'},
+      {name: 'Computer Science'},
+      {name: 'Network Science'},
+      {name: 'Embedded System'},
+      {name: 'Hybrid System'},
+      {name: 'Epidemiology'},
+      {name: 'Statistics'},
+      {name: 'C, C++'},
+      {name: 'Python'},
+    ];
   	return(
   		<div className="education-container">
   			<div className="tctfl main-title">
@@ -35,48 +47,24 @@ class Education extends React.Component {
   					<ul className="timeline-content-container">
     					<li>
     						<div className="tctfl timeline-content">
-                 I authored a paper on computer-controlled engineering, applying event-triggered control over the Deterministic SIS Network Model, which is one of the mathematical epidemic model.
+                 I authored a paper on event-triggered control for mitigating deterministic SIS spreading processes, which is the novel research area for computer control.
     						</div>
     					</li>
     					<li>
     						<div className="tctfl timeline-content">
-                 My research area focuses on the basic theory and its application for the analysis and design of increasingly large and complex systems, such as networked control systems that exchange information via communication networks, as well as software development for computer control.
+                 My research area focuses on the the analysis and design of cyber physical systems, such as networked control systems that exchange information via communication networks, as well as software development for computer control.
     						</div>
     					</li>
   					</ul>
             <div className="timeline-special-container">
-              <div className="timeline-special">
-                Networked Control System
-              </div>
-              <div className="timeline-special">
-                Machine Learning
-              </div>
-              <div className="timeline-special">
-                Computer Science
-              </div>
-              <div className="timeline-special">
-                Network Science
-              </div>
-              <div className="timeline-special">
-                Embedded System
-              </div>
-              <div className="timeline-special">
-                Hybrid System
-              </div>
-              <div className="timeline-special">
-                Epidemiology
-              </div>
-              <div className="timeline-special">
-                Statistics
-              </div>
-              <div className="timeline-special">
-                C, C++
-              </div>
-              <div className="timeline-special">
-                Python
-              </div>
+              {skill_list.map((skill_item)=>{
+                return(<div className="timeline-special">
+                 {skill_item.name}
+                </div>
+              );
+            })}
             </div>
-  				</div>
+          </div>
   			</div>
   		</div>
   	);

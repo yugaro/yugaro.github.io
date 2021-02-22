@@ -15,7 +15,7 @@ class Journal extends React.Component {
         <ul className="timeline-content-container">
           <li>
             <div className="tctfl qualification-content">
-            Yuga Onoue. Event-Triggered Control for Mitigating SIS Spreading Processes. Annual Reviews in Control, 2021, to appear.
+            Yuga Onoue, Kazumune Hashimoto, Masaki Ogura, and Toshimitsu Ushio. Event-Triggered Control for Mitigating SIS Spreading Processes. Annual Reviews in Control, 2021, to appear.
             <a href="https://arxiv.org/abs/2012.15146" className="btn"> <div className="tctfl jounal-arXiv">[arXiv]</div></a>
             </div>
           </li>

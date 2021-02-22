@@ -52,28 +52,30 @@ class Top extends React.Component {
 
     return (
       <div className="App-header-top-containter">
-        <div className="App-header-top-containter-right">
-          <botton className = "btn top-icon-wrap">
-            <img src={mail_icon} alt="logo"
-              onMouseOver={()=> this.handleMailOver()}
-              onMouseOut={()=>this.handleMailOut()}
-              onClick={()=>this.handleClickMail()}
-            />
-          </botton>
-          {mailIconText}
-          {mailIconText2}
-          <a href = "https://github.com/yugaro" className = "btn top-icon-wrap">
-            <img src={github_icon} alt="logo"/> 
-          </a>
-          <a href = "https://www.instagram.com/garoyugaro/" className = "btn top-icon-wrap" > 
-            <img src={instagram_icon} alt="logo"/>
-          </a>
-          <a href = "https://twitter.com/garoyugaro/" className = "btn top-icon-wrap" > 
-            <img src={twitter_icon} alt="logo"/> 
-          </a>
-          <a href = "https://www.linkedin.com/in/yuga-onoue-8934531a8/" className = "btn top-icon-wrap" >
-            <img src={linkedin_icon} alt="logo"/>
-          </a>
+        <div className="top-containter-wrapper">
+          <div className="App-header-top-containter-right">
+            <botton className = "btn top-icon-wrap mail_icon_wrapper">
+              <img src={mail_icon} alt="logo"
+                onMouseOver={()=> this.handleMailOver()}
+                onMouseOut={()=>this.handleMailOut()}
+                onClick={()=>this.handleClickMail()}
+              />
+              {mailIconText}
+              {mailIconText2}
+            </botton>
+            <a href = "https://github.com/yugaro" className = "btn top-icon-wrap">
+              <img src={github_icon} alt="logo"/> 
+            </a>
+            <a href = "https://www.instagram.com/garoyugaro/" className = "btn top-icon-wrap" > 
+              <img src={instagram_icon} alt="logo"/>
+            </a>
+            <a href = "https://twitter.com/garoyugaro/" className = "btn top-icon-wrap" > 
+              <img src={twitter_icon} alt="logo"/> 
+            </a>
+            <a href = "https://www.linkedin.com/in/yuga-onoue-8934531a8/" className = "btn top-icon-wrap" >
+              <img src={linkedin_icon} alt="logo"/>
+            </a>
+          </div>
         </div>
       </div>
     );

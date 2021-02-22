@@ -27,7 +27,7 @@ class Top2 extends React.Component {
     this.setState({isMouseClick_mail :true});
     this.setState({isMouseOver_mail: false});
     var textField = document.createElement('textarea')
-    textField.innerText = 'yugaro.yugaro@gmail.com'
+    textField.innerText = 'onoue@hopf.sys.es.osaka-u.ac.jp'
     document.body.appendChild(textField)
     textField.select()
     document.execCommand('copy');
@@ -51,16 +51,17 @@ class Top2 extends React.Component {
 
     return (
       <div className="App-header-top-containter2">
+      <div className="top-containter-wrapper">
         <div className="App-header-top-containter-right">
-          <botton className = "btn top-icon-wrap">
+          <botton className = "btn top-icon-wrap mail_icon_wrapper">
             <img src={mail_icon2} alt="logo"
               onMouseOver={()=> this.handleMailOver()}
               onMouseOut={()=>this.handleMailOut()}
               onClick={()=>this.handleClickMail()}
             />
+            {mailIconText}
+            {mailIconText2}
           </botton>
-          {mailIconText}
-          {mailIconText2}
           <a href = "https://github.com/yugaro" className = "btn top-icon-wrap">
             <img src={github_icon2} alt="logo"/> 
           </a>
@@ -73,6 +74,7 @@ class Top2 extends React.Component {
           <a href = "https://www.linkedin.com/in/yuga-onoue-8934531a8/" className = "btn top-icon-wrap" >
             <img src={linkedin_icon2} alt="logo"/>
           </a>
+        </div>
         </div>
       </div>
     );

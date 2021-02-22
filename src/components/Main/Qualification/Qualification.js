@@ -15,7 +15,7 @@ class Qualification extends React.Component {
         <ul className="timeline-content-container">
           <li>
             <div className="tctfl qualification-content">
-            TOEIC (ETS), Jan. 2020, SCORE : 925
+            TOEIC (ETS), Jan. 2020, SCORE: 925
             </div>
           </li>
           <li>

@@ -27,12 +27,12 @@ div{
 .btn{
   opacity: 0.8;
   transition: 0.3s;
-  cursor:true;
+  cursor:pointer;
 }
 
 .btn:hover {
   opacity: 1.0;
-  cursor:true;
+  cursor:pointer;
 }
 
 .tctfl{

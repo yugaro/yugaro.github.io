@@ -87,31 +87,31 @@ class SpecialtySkill extends React.Component {
   			Specialty & Skill
   			</div>
   			<div className="s-s-main">
-			{s_s_list.map((s_s_item)=>{
-				if(s_s_item.label){
-					return(
-					<div className="s-s-wrap">
-  						<div className="tctfl s-s-title">
-  							{s_s_item.name}
-  						</div>
-  						<div className="s-s-level-wrap">
-  							<div style={{width:s_s_item.level}} className="s-s-level"> </div>
-  						</div>
-  					</div>
-				);
-				}else{
-					return(
-					<div className="s-s-wrap s-s-wrap-r">
-  						<div className="tctfl s-s-title">
-  							{s_s_item.name}
-  						</div>
-  						<div className="s-s-level-wrap">
-  							<div style={{width:s_s_item.level}} className="s-s-level"> </div>
-  						</div>
-  					</div>
-				);
-				}
-			})}
+    			{s_s_list.map((s_s_item)=>{
+    				if(s_s_item.label){
+    					return(
+    					<div className="s-s-wrap">
+      						<div className="tctfl s-s-title">
+      							{s_s_item.name}
+      						</div>
+      						<div className="s-s-level-wrap">
+      							<div style={{width:s_s_item.level}} className="s-s-level"> </div>
+      						</div>
+      					</div>
+    				);
+    				}else{
+    					return(
+    					<div className="s-s-wrap s-s-wrap-r">
+      						<div className="tctfl s-s-title">
+      							{s_s_item.name}
+      						</div>
+      						<div className="s-s-level-wrap">
+      							<div style={{width:s_s_item.level}} className="s-s-level"> </div>
+      						</div>
+      					</div>
+    				);
+    				}
+    			})}
   			</div>
   		</div>
   	);
