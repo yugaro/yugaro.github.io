@@ -38,6 +38,11 @@ class Article extends React.Component {
             <div className="tctfl artt1">Gaussian Processes for Learning Self-triggered Controller </div>
             <div className="tctfl artt2">For Network Control System and Machine Learning Leaners </div>
           </a>
+          <a href="https://qiita.com/yugaro/items/a0b9030161a0478b25b1" className="article-link">
+            <div className="btn article-image arti6"></div>
+            <div className="tctfl artt1">Stability Analysis for Leaning-based MPC </div>
+            <div className="tctfl artt2">For Network Control System and Machine Learning Leaners </div>
+          </a>
   			</div>
   		</div>
   	);

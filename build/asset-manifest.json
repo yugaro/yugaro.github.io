@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.c78e8c3d.chunk.css",
-    "main.js": "/static/js/main.05072a18.chunk.js",
-    "main.js.map": "/static/js/main.05072a18.chunk.js.map",
+    "main.css": "/static/css/main.7daa3755.chunk.css",
+    "main.js": "/static/js/main.2a68e09c.chunk.js",
+    "main.js.map": "/static/js/main.2a68e09c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4a3acf61.js",
     "runtime-main.js.map": "/static/js/runtime-main.4a3acf61.js.map",
     "static/js/2.a2b717da.chunk.js": "/static/js/2.a2b717da.chunk.js",
     "static/js/2.a2b717da.chunk.js.map": "/static/js/2.a2b717da.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2d56fdd2dd54eff56b47666bd4623334.js": "/precache-manifest.2d56fdd2dd54eff56b47666bd4623334.js",
+    "precache-manifest.7329bd393c91fedcf387bebd9c845be4.js": "/precache-manifest.7329bd393c91fedcf387bebd9c845be4.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.c78e8c3d.chunk.css.map": "/static/css/main.c78e8c3d.chunk.css.map",
+    "static/css/main.7daa3755.chunk.css.map": "/static/css/main.7daa3755.chunk.css.map",
     "static/js/2.a2b717da.chunk.js.LICENSE.txt": "/static/js/2.a2b717da.chunk.js.LICENSE.txt",
     "static/media/Article.css": "/static/media/self-triggered-control.c369de41.png",
     "static/media/instagram.png": "/static/media/instagram.4a8c2347.png",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.4a3acf61.js",
     "static/js/2.a2b717da.chunk.js",
-    "static/css/main.c78e8c3d.chunk.css",
-    "static/js/main.05072a18.chunk.js"
+    "static/css/main.7daa3755.chunk.css",
+    "static/js/main.2a68e09c.chunk.js"
   ]
 }
